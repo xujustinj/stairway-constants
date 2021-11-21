@@ -21,14 +21,25 @@
   });
 </script>
 
-<h1>Stairway Constants</h1>
-<img
-  src="/images/stairway-constants-icon-old-290x290.png"
-  alt="symbols for all the stairway constants"
-/>
-<p><b>UNDER CONSTRUCTION</b></p>
-<p>
-  Here will eventually be the web revision of <i>Stairway Constants</i>: all 8
-  floors of constants rolled up into one scrolling webpage.
-</p>
-<p>Until then, enjoy some \(\LaTeX\) filler! \[\Huge \pi^\pi\]</p>
+<main>
+  <h1>Stairway Constants</h1>
+  <img
+    src="./images/stairway-constants-icon-old-290x290.png"
+    alt="symbols for all the stairway constants"
+    id="constant-symbols"
+  />
+  <p><b>UNDER CONSTRUCTION</b></p>
+  <p>
+    Here will eventually be the web revision of <i>Stairway Constants</i>: all 8
+    floors of constants rolled up into one scrolling webpage.
+  </p>
+  <p>Until then, enjoy some \(\LaTeX\) filler! \[\Huge \pi^\pi\]</p>
+</main>
+
+<style lang="css">
+  #constant-symbols {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>
